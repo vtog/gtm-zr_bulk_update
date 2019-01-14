@@ -14,8 +14,9 @@ F5 - GTM / ZoneRunner Bulk Update
    #. Stops “zrd” and “named”
    #. Adds the record to the proper db.external file by parsing the list and
       matching it to a valid domain.
-      a.	If domain doesn’t exist it adds the record to a log and skips it.
+         a.	If domain doesn’t exist it adds the record to a log and skips it.
       (Can’t add it to a db file that doesn’t exist.)
+
    #. Starts “zrd” and “named”
 
 - makezone.py
