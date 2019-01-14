@@ -3,13 +3,13 @@ F5 - GTM / ZoneRunner Bulk Update
 
 #. makerecordfile.py
 
-   - Simple script that creates a txt file containing dns records.
+   - Simple script that creates a txt file containing test dns records,
      "name.test1.local. A 1.1.1.1" (/test/mkrecords.txt)
 
 #. makezone.py
 
    - Simple script that creates/adds test zones to the named.conf with
-     corresponding db file
+     corresponding db files
 
 #. importrecords.py
 
